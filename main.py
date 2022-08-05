@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 #Importing Files
-import matplotlib
+import plots
 import home
 import predict
 
@@ -25,7 +25,7 @@ hydraulics_df = load_data()
 
 st.title('Gas Turbine Emission')
 pages_dict = {"Home": home,
-              "Predict Diabetes": predict,
+              "Predict Emmision": predict,
               "Visualise Decision Tree": plots}
 
 st.sidebar.title('Navigation')
