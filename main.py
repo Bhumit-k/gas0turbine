@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 #Importing Files
-import matplotlib.pyplot as plt
+import matplotlib
 import home
 import predict
 
